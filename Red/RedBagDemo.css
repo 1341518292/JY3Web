@@ -1,0 +1,32 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#div1{
+
+	width: 100%;
+	height: 200px;
+	background-color: #f44336;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+}
+#div2{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: gold;
+	background-image: url(钱.svg);
+	background-size: 100%;
+	box-shadow: 3px 3px #424242;
+}
+/*#div3{
+
+	position: absolute;
+	width: 200px;
+	height: 70px;
+	background-color: salmon;
+}*/
