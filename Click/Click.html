@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>点击</title>
+		<link rel="stylesheet" type="text/css" href="ClickDemo.css" />
+		<script type="text/javascript" src="../js/jquery.js"></script>
+	</head>
+
+	<body>
+
+		<div id="div1">
+			<ul>
+				<li>
+					<a href="https://www.douyu.com/topic/DGDH?rid=52004" target="ifarme1">菠萝赛东</a>
+				</li>
+				<li>
+					<a href="https://www.douyu.com/" target="ifarme1">斗鱼直播</a>
+				</li>
+				<li>
+					<a href="https://www.sogou.com/" target="ifarme1">搜狗</a>
+				</li>
+				<li>
+					<a href="https://www.sina.com.cn/" target="ifarme1">新浪</a>
+				</li>
+				<li>
+					<a href="https://www.huya.com/" target="ifarme1">虎牙直播</a>
+				</li>
+			</ul>
+		</div>
+		<div id="div2">
+			<button id="but1">Click</button>
+			<iframe name="ifarme1" src=""></iframe>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function() {
+
+			$("#but1").click(function() {
+				$("#div2").toggleClass("move");
+			})
+		})
+	</script>
+
+</html>

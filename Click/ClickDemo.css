@@ -1,0 +1,49 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+div {
+	position: absolute;
+}
+
+#div1 {
+	background-color: #63B8FF;
+	width: 250px;
+	height: 100%;
+}
+
+#div2 {
+	background-color: #F44336;
+	width: 2400px;
+	height: 100%;
+	transition: all 1.5s;
+}
+
+.move {
+	transform: translate(250px);
+}
+
+ul li {
+	list-style: none;
+	margin-top: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+}
+
+button {
+	display: block;
+	position: absolute;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+	border: 0px;
+}
