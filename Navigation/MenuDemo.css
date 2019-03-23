@@ -1,0 +1,29 @@
+a {
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+li{
+	color: black;
+	margin-top: 3px;
+	width: 110px;
+	height: 40px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 3px;
+	/*过渡效果*/
+	transition:background-color 0.5s;
+	
+}
+
+li:hover{
+	background-color: tomato;
+	cursor: pointer;
+	color: white;
+}
+a:focus li
+{
+	background-color: tomato;
+}
