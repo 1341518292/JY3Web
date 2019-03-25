@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<link rel="stylesheet" type="text/css" href="css/SuperWeChat.css" />
+		<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+		<title>微信</title>
+	</head>
+
+	<body>
+		<div class="first">
+			<div class="Top">
+				<div class="SubTop" id="Top1">
+					<div id="t1" class="st1">
+						<img class="img1" src="img/信号格.svg" />
+						<div id="font1">中国电信</div>
+					</div>
+					<div id="t2" class="st1">
+						<div id="font2">晚上12:45</div>
+					</div>
+					<div id="t3" class="st1">
+						<img class="img1" id="qww" src="img/wifi.svg" />
+						<div id="font3">78%</div>
+						<img class="img1" id="qwe" src="img/电量.svg" />
+					</div>
+				</div>
+				<div class="SubTop" id="Top2">
+					<div class="st2" id="q1">微信(3)</div>
+					<div class="st2" id="q2"></div>
+					<div class="st2" id="q3">
+						<div id="drop">
+							<img class="img2" id="but3" src="img/搜索.svg" />
+
+						</div>
+						<img class="img2" id="but2" src="img/添加.svg" />
+
+					</div>
+				</div>
+				<div class="SubNone" id="Top3">
+					<div class="sn1">
+						<img onclick="zx()" class="SNImg1" src="img/左箭头.svg">
+					</div>
+					<div class="sn2">微信</div>
+					<div class="sn3">鞠婧祎</div>
+					<div class="sn4">
+						<img class="SNImg1" src="img/me.svg" />
+					</div>
+				</div>
+				<div class="SubNone" id="Top4">
+					<div class="sn5">
+						<img onclick="zb()" class="SNImg1" src="img/左箭头.svg">
+					</div>
+					<div class="sn6">发现</div>
+					<div class="sn7">朋友圈</div>
+					<div class="sn8">
+						<img class="SNImg1" src="img/相机.svg" />
+					</div>
+				</div>
+			</div>
+			<div id="cen1" class="center">
+				<div class="dropmenu">
+					<div class="menu1">
+						<div class="md1">
+							<img src="img/wei.svg" />
+						</div>
+						<div class="md2">发起群聊</div>
+					</div>
+					<div class="menu1">
+						<div class="md1">
+							<img src="img/添加朋友.svg" />
+						</div>
+						<div class="md2">添加朋友</div>
+					</div>
+					<div class="menu1">
+						<div class="md1">
+							<img src="img/扫一扫.svg" />
+						</div>
+						<div class="md2">扫一扫</div>
+					</div>
+					<div class="menu1">
+						<div class="md1">
+							<img src="img/收付款.svg" />
+						</div>
+						<div class="md2">收付款</div>
+					</div>
+					<div class="menu1">
+						<div class="md1">
+							<img src="img/email (1).svg" />
+						</div>
+						<div class="md2">帮助与反馈</div>
+					</div>
+				</div>
+
+				<div onclick="zxc()" class="c1">
+					<div class="cb1">
+						<img class="sp5" src="头像/鞠婧祎.jpg" />
+					</div>
+					<div class="cb2">
+						<div class="sp1">鞠婧祎</div>
+						<div class="sp2">最近干吗呢</div>
+					</div>
+					<div class="cb3">
+						<div class="sp3">12:20</div>
+						<img class="sp4" src="img/免打扰.svg" />
+					</div>
+				</div>
+
+				<div class="c1">
+					<div class="cb1">
+						<img class="sp5" src="头像/1.jpg" />
+					</div>
+					<div class="cb2">
+						<div class="sp1">悦澜湾</div>
+						<div class="sp2">你在哪里？</div>
+					</div>
+					<div class="cb3">
+						<div class="sp3">11:45</div>
+						<img class="sp4" src="img/免打扰.svg" />
+					</div>
+				</div>
+
+				<div class="c1">
+					<div class="cb1">
+						<img class="sp5" src="头像/3.jpg" />
+					</div>
+					<div class="cb2">
+						<div class="sp1">磊哥</div>
+						<div class="sp2">晚上下棋不，弟弟</div>
+					</div>
+					<div class="cb3">
+						<div class="sp3">11:30</div>
+						<img class="sp4" src="img/免打扰.svg" />
+					</div>
+				</div>
+
+				<div class="c1">
+					<div class="cb1">
+						<img class="sp5" src="头像/4.jpg" />
+					</div>
+					<div class="cb2">
+						<div class="sp1">阿萨德</div>
+						<div class="sp2">愿真主保佑你。</div>
+					</div>
+					<div class="cb3">
+						<div class="sp3">11:20</div>
+						<img class="sp4" src="img/免打扰.svg" />
+					</div>
+				</div>
+
+				<div class="c1">
+					<div class="cb1">
+						<img class="sp5" src="头像/5.jpg" />
+					</div>
+					<div class="cb2">
+						<div class="sp1">=。=</div>
+						<div class="sp2">mmp</div>
+					</div>
+					<div class="cb3">
+						<div class="sp3">12:20</div>
+						<img class="sp4" src="img/免打扰.svg" />
+					</div>
+				</div>
+
+				<div class="c1">
+					<div class="cb1">
+						<img class="sp5" src="头像/6.jpg" />
+					</div>
+					<div class="cb2">
+						<div class="sp1">Master</div>
+						<div class="sp2">真想去找你</div>
+					</div>
+					<div class="cb3">
+						<div class="sp3">12:20</div>
+						<img class="sp4" src="img/免打扰.svg" />
+					</div>
+				</div>
+
+				<div class="c1">
+					<div class="cb1">
+						<img class="sp5" src="头像/7.jpg" />
+					</div>
+					<div class="cb2">
+						<div class="sp1">White</div>
+						<div class="sp2">卢本伟牛逼。</div>
+					</div>
+					<div class="cb3">
+						<div class="sp3">12:20</div>
+						<img class="sp4" src="img/免打扰.svg" />
+					</div>
+				</div>
+
+				<div class="c1">
+					<div class="cb1">
+						<img class="sp5" src="头像/8.jpg" />
+					</div>
+					<div class="cb2">
+						<div class="sp1">Uzi</div>
+						<div class="sp2">小伙子，可以教我玩VN吗？</div>
+					</div>
+					<div class="cb3">
+						<div class="sp3">12:20</div>
+						<img class="sp4" src="img/免打扰.svg" />
+					</div>
+				</div>
+
+				<div class="c1">
+					<div class="cb1">
+						<img class="sp5" src="头像/9.jpg" />
+					</div>
+					<div class="cb2">
+						<div class="sp1">王思聪</div>
+						<div class="sp2">有空一起泡个脚。</div>
+					</div>
+					<div class="cb3">
+						<div class="sp3">12:20</div>
+						<img class="sp4" src="img/免打扰.svg" />
+					</div>
+				</div>
+
+				<div class="c1">
+					<div class="cb1">
+						<img class="sp5" src="头像/10.jpg" />
+					</div>
+					<div class="cb2">
+						<div class="sp1">马化腾</div>
+						<div class="sp2">晚上有时间，一起吃个饭。</div>
+					</div>
+					<div class="cb3">
+						<div class="sp3">12:20</div>
+						<img class="sp4" src="img/免打扰.svg" />
+					</div>
+				</div>
+
+				<div class="c1">
+					<div class="cb1">
+						<img class="sp5" src="头像/11.jpg" />
+					</div>
+					<div class="cb2">
+						<div class="sp1">马云</div>
+						<div class="sp2">最近忙吗？</div>
+					</div>
+					<div class="cb3">
+						<div class="sp3">12:20</div>
+						<img class="sp4" src="img/免打扰.svg" />
+					</div>
+				</div>
+
+				<div class="c1">
+					<div class="cb1">
+						<img class="sp5" src="头像/12.jpg" />
+					</div>
+					<div class="cb2">
+						<div class="sp1">猪猪侠</div>
+						<div class="sp2">...</div>
+					</div>
+					<div class="cb3">
+						<div class="sp3">12:20</div>
+						<img class="sp4" src="img/免打扰.svg" />
+					</div>
+				</div>
+
+			</div>
+			<div id="cen2">
+				<div class="dropmenu">
+					<div class="menu1">
+						<div class="md1">
+							<img src="img/wei.svg" />
+						</div>
+						<div class="md2">发起群聊</div>
+					</div>
+					<div class="menu1">
+						<div class="md1">
+							<img src="img/添加朋友.svg" />
+						</div>
+						<div class="md2">添加朋友</div>
+					</div>
+					<div class="menu1">
+						<div class="md1">
+							<img src="img/扫一扫.svg" />
+						</div>
+						<div class="md2">扫一扫</div>
+					</div>
+					<div class="menu1">
+						<div class="md1">
+							<img src="img/收付款.svg" />
+						</div>
+						<div class="md2">收付款</div>
+					</div>
+					<div class="menu1">
+						<div class="md1">
+							<img src="img/email (1).svg" />
+						</div>
+						<div class="md2">帮助与反馈</div>
+					</div>
+				</div>
+				<div class="ct1">
+					<div class="Clin1">
+
+					</div>
+					<div class="Clin2">
+						<img src="img/搜1.svg" /> 搜索
+					</div>
+					<div class="Clin1">
+						<img src="img/语.svg" />
+					</div>
+				</div>
+				<div class="ct2">
+					<div class="Clin4">
+						<img src="img/新的朋友.svg" />
+					</div>
+					<div class="Clin5">新的朋友</div>
+				</div>
+				<div class="ct2">
+					<div class="Clin4">
+						<img src="img/群聊.svg" />
+					</div>
+					<div class="Clin5">群聊</div>
+				</div>
+				<div class="ct2">
+					<div class="Clin4">
+						<img src="img/标签.svg" />
+					</div>
+					<div class="Clin5">标签</div>
+				</div>
+				<div class="ct2">
+					<div class="Clin4">
+						<img src="img/公众号图标.svg" />
+					</div>
+					<div class="Clin5">公众号</div>
+				</div>
+				<a name="A" class="ct3">
+					<div class="AF1">A</div>
+
+				</a>
+				<div class="ct2">
+					<div class="Clin4">
+						<img src="头像/1.jpg" />
+					</div>
+					<div class="Clin5">A+携程旅游</div>
+				</div>
+				<div class="ct2">
+					<div class="Clin4">
+						<img src="头像/3.jpg" />
+					</div>
+					<div class="Clin5">A+携程旅游</div>
+				</div>
+				<div class="ct2">
+					<div class="Clin4">
+						<img src="头像/4.jpg" />
+					</div>
+					<div class="Clin5">a+13831324521小燕</div>
+				</div>
+				<a name="B" class="ct3">
+					<div class="AF1">B</div>
+
+				</a>
+				<div class="ct2">
+					<div class="Clin4">
+						<img src="头像/2.jpg" />
+					</div>
+					<div class="Clin5">巴斯夫</div>
+				</div>
+				<div class="ct2">
+					<div class="Clin4">
+						<img src="头像/5.jpg" />
+					</div>
+					<div class="Clin5">马云</div>
+				</div>
+				<div class="ct2">
+					<div class="Clin4">
+						<img src="头像/6.jpg" />
+					</div>
+					<div class="Clin5">王健林</div>
+				</div>
+				<a name="D" class="ct3">
+					<div class="AF1">D</div>
+
+				</a>
+				<div class="ct2">
+					<div class="Clin4">
+						<img src="头像/1.jpg" />
+					</div>
+					<div class="Clin5">Uzi</div>
+				</div>
+				<a name="E" class="ct3">
+					<div class="AF1">E</div>
+
+				</a>
+				<div class="ct2">
+					<div class="Clin4">
+						<img src="头像/2.jpg" />
+					</div>
+					<div class="Clin5">Rooike</div>
+				</div>
+				<div class="ct2">
+					<div class="Clin4">
+						<img src="头像/6.jpg" />
+					</div>
+					<div class="Clin5">磊哥</div>
+				</div>
+				<div class="ct2">
+					<div class="Clin4">
+						<img src="头像/9.jpg" />
+					</div>
+					<div class="Clin5">马化腾</div>
+				</div>
+				<a name="R" class="ct3">
+					<div class="AF1">R</div>
+
+				</a>
+				<div class="ct2">
+					<div class="Clin4">
+						<img src="头像/10.jpg" />
+					</div>
+					<div class="Clin5">任达华</div>
+				</div>
+				<div class="ct2">
+					<div class="Clin4">
+						<img src="头像/11.jpg" />
+					</div>
+					<div class="Clin5">雷·阿伦</div>
+				</div>
+				<div class="ct2">
+					<div class="Clin4">
+						<img src="头像/12.jpg" />
+					</div>
+					<div class="Clin5">乔丹</div>
+				</div>
+				<div class="ct2">
+					<div class="Clin4">
+						<img src="头像/7.jpg" />
+					</div>
+					<div class="Clin5">王健林</div>
+				</div>
+			</div>
+			<div id="cen3">
+				<div class="dropmenu">
+					<div class="menu1">
+						<div class="md1">
+							<img src="img/wei.svg" />
+						</div>
+						<div class="md2">发起群聊</div>
+					</div>
+					<div class="menu1">
+						<div class="md1">
+							<img src="img/添加朋友.svg" />
+						</div>
+						<div class="md2">添加朋友</div>
+					</div>
+					<div class="menu1">
+						<div class="md1">
+							<img src="img/扫一扫.svg" />
+						</div>
+						<div class="md2">扫一扫</div>
+					</div>
+					<div class="menu1">
+						<div class="md1">
+							<img src="img/收付款.svg" />
+						</div>
+						<div class="md2">收付款</div>
+					</div>
+					<div class="menu1">
+						<div class="md1">
+							<img src="img/email (1).svg" />
+						</div>
+						<div class="md2">帮助与反馈</div>
+					</div>
+				</div>
+				<div class="Find" onclick="zxb()">
+					<div class="f1">
+						<img class="FImg1" src="朋友圈图片/朋友圈.svg" />
+					</div>
+					<div class="f2">朋友圈</div>
+					<div class="f3">
+						<img class="FImg1" src="头像/9.jpg" />
+					</div>
+					<div class="f4">
+						<img class="FImg2" src="朋友圈图片/右箭头.svg" />
+					</div>
+				</div>
+				<div class="White"></div>
+				<div class="Find">
+					<div class="f1">
+						<img class="FImg1" src="朋友圈图片/扫一扫.svg" />
+					</div>
+					<div class="f2">扫一扫</div>
+					<div class="f3">
+						<div class="FImg1"></div>
+					</div>
+					<div class="f4">
+						<img class="FImg2" src="朋友圈图片/右箭头.svg" />
+					</div>
+				</div>
+				<div class="Find">
+					<div class="f1">
+						<img class="FImg1" src="朋友圈图片/摇一摇.svg" />
+					</div>
+					<div class="f2">摇一摇</div>
+					<div class="f3">
+						<div class="FImg1"></div>
+					</div>
+					<div class="f4">
+						<img class="FImg2" src="朋友圈图片/右箭头.svg" />
+					</div>
+				</div>
+				<div class="White"></div>
+				<div class="Find">
+					<div class="f1">
+						<img class="FImg1" src="朋友圈图片/看一看.svg" />
+					</div>
+					<div class="f2">看一看</div>
+					<div class="f3">
+						<div class="FImg1"></div>
+					</div>
+					<div class="f4">
+						<img class="FImg2" src="朋友圈图片/右箭头.svg" />
+					</div>
+				</div>
+				<div class="Find">
+					<div class="f1">
+						<img class="FImg1" src="朋友圈图片/搜一搜.svg" />
+					</div>
+					<div class="f2">搜一搜</div>
+					<div class="f3">
+						<div class="FImg1"></div>
+					</div>
+					<div class="f4">
+						<img class="FImg2" src="朋友圈图片/右箭头.svg" />
+					</div>
+				</div>
+				<div class="White"></div>
+				<div class="Find">
+					<div class="f1">
+						<img class="FImg1" src="朋友圈图片/附近的人icon.svg" />
+					</div>
+					<div class="f2">附近的人</div>
+					<div class="f3">
+						<div class="FImg1"></div>
+					</div>
+					<div class="f4">
+						<img class="FImg2" src="朋友圈图片/右箭头.svg" />
+					</div>
+				</div>
+				<div class="White"></div>
+				<div class="Find">
+					<div class="f1">
+						<img class="FImg1" src="朋友圈图片/购物.svg" />
+					</div>
+					<div class="f2">购物</div>
+					<div class="f3">
+						<div class="FImg1"></div>
+					</div>
+					<div class="f4">
+						<img class="FImg2" src="朋友圈图片/右箭头.svg" />
+					</div>
+				</div>
+				<div class="Find">
+					<div class="f1">
+						<img class="FImg1" src="朋友圈图片/游戏.svg" />
+					</div>
+					<div class="f2">游戏</div>
+					<div class="f3">
+						<div class="FImg1"></div>
+					</div>
+					<div class="f4">
+						<img class="FImg2" src="朋友圈图片/右箭头.svg" />
+					</div>
+				</div>
+				<div class="White"></div>
+				<div class="Find">
+					<div class="f1">
+						<img class="FImg1" src="朋友圈图片/小程序.svg" />
+					</div>
+					<div class="f2">小程序</div>
+					<div class="f3">
+						<div class="FImg1"></div>
+					</div>
+					<div class="f4">
+						<img class="FImg2" src="朋友圈图片/右箭头.svg" />
+					</div>
+
+				</div>
+				<div class="White"></div>
+			</div>
+			<div id="cen4">
+				<div class="dropmenu">
+					<div class="menu1">
+						<div class="md1">
+							<img src="img/wei.svg" />
+						</div>
+						<div class="md2">发起群聊</div>
+					</div>
+					<div class="menu1">
+						<div class="md1">
+							<img src="img/添加朋友.svg" />
+						</div>
+						<div class="md2">添加朋友</div>
+					</div>
+					<div class="menu1">
+						<div class="md1">
+							<img src="img/扫一扫.svg" />
+						</div>
+						<div class="md2">扫一扫</div>
+					</div>
+					<div class="menu1">
+						<div class="md1">
+							<img src="img/收付款.svg" />
+						</div>
+						<div class="md2">收付款</div>
+					</div>
+					<div class="menu1">
+						<div class="md1">
+							<img src="img/email (1).svg" />
+						</div>
+						<div class="md2">帮助与反馈</div>
+					</div>
+				</div>
+				<div class="Weian">
+					<div class="W1">
+						<img src="img/马化腾.png" />
+					</div>
+					<div class="W2">
+						<div id="spn1">马化腾</div>
+
+						<div id="spn2">微信号:xiaomage</div>
+					</div>
+					<div class="W3">
+						<img src="img/二维码.svg" />
+					</div>
+				</div>
+				<div class="kong2"></div>
+				<div class="Weian2">
+					<div class="W4">
+						<img src="img/微信支付.svg" />
+					</div>
+					<div class="W5">支付</div>
+				</div>
+				<div class="kong2"></div>
+				<div class="Weian2">
+					<div class="W4">
+						<img src="img/微信收藏.svg" />
+					</div>
+					<div class="W6">收藏</div>
+				</div>
+				<div class="Weian2">
+					<div class="W4">
+						<img src="img/相册.svg" />
+					</div>
+					<div class="W6">相册</div>
+				</div>
+				<div class="Weian2">
+					<div class="W4">
+						<img src="img/卡包.svg" />
+					</div>
+					<div class="W6">卡包</div>
+				</div>
+				<div class="Weian2">
+					<div class="W4">
+						<img src="img/表情2.svg" />
+					</div>
+					<div class="W6">表情</div>
+				</div>
+				<div class="kong2"></div>
+				<div class="Weian2">
+					<div class="W4">
+						<img src="img/设置.svg" />
+					</div>
+					<div class="W5">设置</div>
+				</div>
+			</div>
+			<div id="cen5">
+				<div class="Chat">
+					<div class="Time">周三12:30</div>
+					<div class="ChatStart">
+						<div class="Cimg">
+							<img class="Cimg1" src="头像/鞠婧祎.jpg" />
+						</div>
+						<div class="ft3">玩啥呢？<br/>想你了</div>
+						<div class="kong1"></div>
+					</div>
+					<div class="ChatStart">
+						<div class="Cimg">
+							<img class="Cimg1" src="头像/鞠婧祎.jpg" />
+						</div>
+						<div class="ft1">怎么这么长时间不联系我啊，我有点想你了，有空来我家玩。</div>
+						<div class="kong"></div>
+					</div>
+					<div class="ChatEnd">
+						<div class="kong"></div>
+						<div class="ft2">最近有点事情，其实我也挺想你，后天去找你，洗白白等我。</div>
+
+						<div class="Cimg">
+							<img class="Cimg1" src="头像/1.jpg" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="cen6">
+				<div class="background">
+					<img src="朋友圈图片/广告.jpg" />
+				</div>
+
+				<div class="Cd6">
+					<div class="d1">
+						<div class="dd1">
+							<img src="头像/鞠婧祎.jpg" />
+						</div>
+						<div class="dd2">
+							<div class="na1">鞠婧祎</div>
+							<div class="na2">一个人的时候很想他。</div>
+						</div>
+						<div class="ab">
+							<div id="ma">马化腾</div>
+							<div>
+								<img src="img/马化腾.png" />
+							</div>
+						</div>
+					</div>
+					<div class="d2">
+						<div class="dd3"></div>
+						<div class="dd4">
+							<span>41分钟前</span>
+							<img src="img/省略.svg" />
+						</div>
+					</div>
+				</div>
+				<div class="Cd6">
+					<div class="d1">
+						<div class="dd1">
+							<img src="头像/3.jpg" />
+						</div>
+						<div class="dd2">
+							<div class="na1">阿伟</div>
+							<div class="na2">谁来打篮球呀。</div>
+						</div>
+					</div>
+					<div class="d2">
+						<div class="dd3"></div>
+						<div class="dd4">
+							<span>1小时前</span>
+							<img src="img/省略.svg" />
+						</div>
+					</div>
+				</div>
+				<div class="Cd6">
+					<div class="d1">
+						<div class="dd1">
+							<img src="头像/5.jpg" />
+						</div>
+						<div class="dd2">
+							<div class="na1">小朋友</div>
+							<div class="na2">来和我玩过家家。</div>
+						</div>
+					</div>
+					<div class="d2">
+						<div class="dd3"></div>
+						<div class="dd4">
+							<span>1天前</span>
+							<img src="img/省略.svg" />
+						</div>
+					</div>
+				</div>
+				<div class="Cd6">
+					<div class="d1">
+						<div class="dd1">
+							<img src="头像/9.jpg" />
+						</div>
+						<div class="dd2">
+							<div class="na1">Superman</div>
+							<div class="na2">啊啊啊啊啊啊啊。</div>
+						</div>
+					</div>
+					<div class="d2">
+						<div class="dd3"></div>
+						<div class="dd4">
+							<span>一周前</span>
+							<img src="img/省略.svg" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+
+				<div id="div4">
+
+					<div class="img3">
+						<img onclick="Jst1()" id="js1" src="img/wechat2-亮.svg">
+					</div>
+					<div class="img3">
+						<img onclick="Jst2()" id="js2" src="img/通讯录-暗.png">
+					</div>
+					<div class="img3">
+						<img onclick="Jst3()" id="js3" src="img/发现-暗.svg">
+					</div>
+					<div class="img3">
+						<img onclick="Jst4()" id="js4" src="img/我的-暗.svg">
+					</div>
+
+				</div>
+				<div id="div5">
+					<span id="sd1" style="color: #1afa29;">微信</span>
+					<span id="sd2">通讯录</span>
+					<span id="sd3">发现</span>
+					<span id="sd4">我</span>
+				</div>
+				<div id="div6">
+					<div class="bd1">
+						<img src="img/声.svg" />
+					</div>
+					<div class="bd2">
+						<input type="text" />
+					</div>
+					<div class="bd1">
+						<img src="img/表情.svg" />
+					</div>
+					<div class="bd1">
+						<img src="img/添.svg" />
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</body>
+	<script>
+		function Jst1() {
+			document.getElementById("js1").src = "img/wechat2-亮.svg";
+			document.getElementById("js2").src = "img/通讯录-暗.png";
+			document.getElementById("js3").src = "img/发现-暗.svg";
+			document.getElementById("js4").src = "img/我的-暗.svg";
+			document.getElementById("sd1").style.color = "#1afa29";
+			document.getElementById("sd2").style.color = "black";
+			document.getElementById("sd3").style.color = "black";
+			document.getElementById("sd4").style.color = "black";
+			document.getElementById("cen1").style.display = "block";
+			document.getElementById("cen2").style.display = "none";
+			document.getElementById("cen3").style.display = "none";
+			document.getElementById("cen4").style.display = "none";
+			document.getElementById("q1").innerHTML = "微信(5)";
+			document.getElementById("q2").innerHTML = "";
+			document.getElementById("q3").style.display = "flex";
+			document.getElementById("but3").style.display = "flex";
+			document.getElementById("but2").src = "img/添加.svg";
+
+		}
+
+		function Jst2() {
+			document.getElementById("js1").src = "img/wechat1-暗.svg";
+			document.getElementById("js2").src = "img/通讯录-亮.svg";
+			document.getElementById("js3").src = "img/发现-暗.svg";
+			document.getElementById("js4").src = "img/我的-暗.svg";
+			document.getElementById("sd1").style.color = "black";
+			document.getElementById("sd2").style.color = "#1afa29";
+			document.getElementById("sd3").style.color = "black";
+			document.getElementById("sd4").style.color = "black";
+			document.getElementById("cen1").style.display = "none";
+			document.getElementById("cen2").style.display = "block";
+			document.getElementById("cen3").style.display = "none";
+			document.getElementById("cen4").style.display = "none";
+			document.getElementById("q1").innerHTML = "";
+			document.getElementById("q2").innerHTML = "通讯录";
+			document.getElementById("but2").src = "img/添加朋友.svg";
+			document.getElementById("but3").style.display = "none";
+			document.getElementById("q3").style.display = "flex";
+		}
+
+		function Jst3() {
+			document.getElementById("js1").src = "img/wechat1-暗.svg";
+			document.getElementById("js2").src = "img/通讯录-暗.png";
+			document.getElementById("js3").src = "img/发现-亮.svg";
+			document.getElementById("js4").src = "img/我的-暗.svg";
+			document.getElementById("sd1").style.color = "black";
+			document.getElementById("sd2").style.color = "black";
+			document.getElementById("sd3").style.color = "#1afa29";
+			document.getElementById("sd4").style.color = "black";
+			document.getElementById("cen1").style.display = "none";
+			document.getElementById("cen2").style.display = "none";
+			document.getElementById("cen3").style.display = "block";
+			document.getElementById("cen4").style.display = "none";
+			document.getElementById("q1").innerHTML = "";
+			document.getElementById("q2").innerHTML = "发现";
+			document.getElementById("q3").style.display = "none";
+
+		}
+
+		function Jst4() {
+			document.getElementById("js1").src = "img/wechat1-暗.svg";
+			document.getElementById("js2").src = "img/通讯录-暗.png";
+			document.getElementById("js3").src = "img/发现-暗.svg";
+			document.getElementById("js4").src = "img/我的-亮.svg";
+			document.getElementById("sd1").style.color = "black";
+			document.getElementById("sd2").style.color = "black";
+			document.getElementById("sd3").style.color = "black";
+			document.getElementById("sd4").style.color = "#1afa29";
+			document.getElementById("cen1").style.display = "none";
+			document.getElementById("cen2").style.display = "none";
+			document.getElementById("cen3").style.display = "none";
+			document.getElementById("cen4").style.display = "block";
+			document.getElementById("q1").innerHTML = "微信(5)";
+			document.getElementById("q2").innerHTML = "";
+			document.getElementById("q3").style.display = "flex";
+			document.getElementById("but3").style.display = "flex";
+			document.getElementById("but2").src = "img/添加.svg";
+
+		}
+
+		function zxc() {
+			document.getElementById("cen1").style.display = "none";
+			document.getElementById("cen5").style.display = "block";
+			document.getElementById("Top3").style.display = "flex";
+			document.getElementById("Top2").style.display = "none";
+			document.getElementById("div4").style.display = "none";
+			document.getElementById("div5").style.display = "none";
+			document.getElementById("div6").style.display = "flex";
+
+		}
+
+		function zxb() {
+			document.getElementById("cen3").style.display = "none";
+			document.getElementById("cen6").style.display = "block";
+			document.getElementById("Top4").style.display = "flex";
+			document.getElementById("Top2").style.display = "none";
+
+		}
+
+		function zx() {
+			document.getElementById("cen1").style.display = "block";
+			document.getElementById("cen5").style.display = "none";
+			document.getElementById("Top3").style.display = "none";
+			document.getElementById("Top2").style.display = "flex";
+			document.getElementById("div4").style.display = "flex";
+			document.getElementById("div5").style.display = "flex";
+			document.getElementById("div6").style.display = "none";
+		}
+
+		function zb() {
+			document.getElementById("cen3").style.display = "block";
+			document.getElementById("cen5").style.display = "none";
+			document.getElementById("cen6").style.display = "none";
+			document.getElementById("Top4").style.display = "none";
+			document.getElementById("Top2").style.display = "flex";
+
+		}
+	</script>
+	<script type="text/javascript">
+		$(function() {
+
+			$("#but2").click(function() {
+				$(".dropmenu").toggleClass("dropmenu1");
+			})
+		})
+	</script>
+
+</html>

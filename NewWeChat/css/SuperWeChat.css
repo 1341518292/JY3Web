@@ -1,0 +1,827 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+body {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: ghostwhite;
+}
+
+.first {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.Top {
+	height: 70px;
+	background-color: black;
+}
+
+.center {
+	flex: 1;
+	background-color: whitesmoke;
+	text-align: center;
+	overflow: scroll;
+}
+
+.bottom {
+	background-color: white;
+}
+
+.SubTop {
+	display: flex;
+}
+
+#Top1 {
+	height: 20px;
+}
+
+#Top2 {
+	height: 40px;
+	/*记得改*/
+}
+
+#Top4 {
+	display: none;
+}
+
+.st1 {
+	display: flex;
+}
+
+#t1 {
+	flex: 0.3;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#t2 {
+	flex: 0.4;
+	justify-content: center;
+	align-items: center;
+}
+
+#t3 {
+	flex: 0.3;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.img1 {
+	width: 50px;
+	height: 18px;
+}
+
+#qwe {
+	width: 20px;
+}
+
+#qww {
+	width: 28px;
+}
+
+.st1 {
+	color: white;
+	font-size: 12px;
+}
+
+.st2 {
+	display: flex;
+}
+
+#q1 {
+	color: white;
+	font-size: 18px;
+	flex: 0.3;
+	justify-content: center;
+	align-items: center;
+}
+
+#q2 {
+	flex: 0.4;
+}
+
+#q3 {
+	flex: 0.3;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.img2 {
+	width: 25px;
+	height: 25px;
+}
+
+
+/*下面*/
+
+#div4 {
+	display: flex;
+	align-items: flex-end;
+	width: 100%;
+	height: 40px;
+}
+
+#div5 {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 30px;
+}
+
+#div4 div img {
+	width: 30px;
+	height: 30px;
+}
+
+.img3 {
+	width: 25%;
+	height: 30px;
+	text-align: center;
+}
+
+.bottom div span {
+	color: black;
+	text-align: center;
+	width: 25%;
+}
+
+.c1 {
+	display: inline-flex;
+	width: 94%;
+	height: 70px;
+	background-color: whitesmoke;
+	border-bottom: 1px solid gray;
+}
+
+.c2 {
+	display: inline-flex;
+	width: 94%;
+	height: 70px;
+	background-color: whitesmoke;
+	border-bottom: 1px solid gray;
+}
+
+.cb1 {
+	flex: 0.2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cb2 {
+	display: flex;
+	flex: 0.65;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.cb3 {
+	display: flex;
+	flex: 0.15;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.sp1 {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.sp2 {
+	text-align: start;
+	font-size: 12px;
+	color: gray;
+}
+
+.sp3 {
+	font-size: 12px;
+}
+
+.sp4 {
+	width: 30px;
+	height: 30px;
+}
+
+.sp5 {
+	width: 55px;
+	height: 55px;
+}
+
+#cen1 {
+	/*记得改*/
+}
+
+#cen2 {
+	display: none;
+	flex: 1;
+	text-align: center;
+	overflow: scroll;
+	flex-direction: column;
+	background-color: gainsboro;
+}
+
+#cen3 {
+	display: none;
+	flex: 1;
+	background-color: gainsboro;
+	text-align: center;
+	overflow: scroll;
+}
+
+#cen4 {
+	background-color: gainsboro;
+	display: none;
+	flex: 1;
+	text-align: center;
+	overflow: scroll;
+}
+
+#cen5 {
+	display: none;
+	flex: 1;
+	background-color: gainsboro;
+	text-align: center;
+}
+
+#cen6 {
+	display: none;
+	flex: 1;
+	overflow: scroll;
+	text-align: center;
+}
+
+#drop {
+	width: 25px;
+	height: 25px;
+}
+
+.dropmenu {
+	position: absolute;
+	display: none;
+}
+
+.dropmenu1 {
+	width: 50%;
+	height: 40%;
+	background-color: gray;
+	display: flex;
+	flex-direction: column;
+	right: 3%;
+}
+
+.menu1 {
+	display: flex;
+	width: 100%;
+	height: 19.8%;
+	background-color: gray;
+	text-align: start;
+	font-size: 18px;
+	color: whitesmoke;
+	margin-bottom: 1px;
+}
+
+.md1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 0.4;
+}
+
+.md2 {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	flex: 0.6;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.menu1 div img {
+	width: 20px;
+	height: 20px;
+}
+
+.Find {
+	display: inline-flex;
+	width: 94%;
+	height: 50px;
+	background-color: white;
+}
+
+.f1 {
+	display: flex;
+	flex: 0.2;
+	justify-content: center;
+	align-items: center;
+}
+
+.f2 {
+	flex: 0.55;
+	line-height: 50px;
+	font-size: 15px;
+	text-align: start;
+}
+
+.f3 {
+	display: flex;
+	flex: 0.2;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.f4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 0.05;
+}
+
+.FImg1 {
+	width: 25px;
+	height: 25px;
+}
+
+.FImg2 {
+	width: 25px;
+	height: 25px;
+}
+
+.White {
+	height: 10px;
+	width: 100%;
+	background-color: gainsboro;
+}
+
+.SubNone {
+	display: none;
+	height: 40px;
+	background-color: black;
+}
+
+.sn1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 0.1;
+}
+
+.sn2 {
+	text-align: center;
+	line-height: 40px;
+	font-size: 15px;
+	color: white;
+	flex: 0.1;
+}
+
+.sn3 {
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	color: white;
+	flex: 0.65;
+}
+
+.sn4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 0.15;
+}
+
+.sn5 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 0.1;
+}
+
+.sn6 {
+	text-align: center;
+	line-height: 40px;
+	font-size: 15px;
+	color: white;
+	flex: 0.1;
+}
+
+.sn7 {
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	color: white;
+	flex: 0.65;
+}
+
+.sn8 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 0.15;
+}
+
+.SNImg1 {
+	width: 20px;
+	height: 20px;
+}
+
+.Chat {
+	display: inline-flex;
+	width: 94%;
+	flex: 1;
+	flex-direction: column;
+}
+
+.ChatStart {
+	margin-top: 10px;
+	height: 50px;
+	display: flex;
+	font-size: 0px;
+}
+
+.ChatEnd {
+	margin-top: 10px;
+	height: 50px;
+	display: flex;
+}
+
+.Time {
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 10px;
+	color: #424242;
+}
+
+.Cimg {
+	flex: 0.15;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ft1 {
+	display: inline-block;
+	flex: 0.7;
+	border-radius: 5px;
+	background-color: white;
+	font-size: 15px;
+	text-align: start;
+	line-height: 22px;
+}
+
+.ft2 {
+	display: inline-block;
+	flex: 0.7;
+	border-radius: 5px;
+	background-color: #8ef160;
+	font-size: 15px;
+	text-align: start;
+	line-height: 22px;
+}
+
+.ft3 {
+	display: inline-block;
+	flex: 0.2;
+	border-radius: 5px;
+	background-color: white;
+	font-size: 15px;
+	text-align: start;
+	line-height: 22px;
+}
+
+.kong {
+	flex: 0.15;
+}
+
+.kong1 {
+	flex: 0.65;
+}
+
+.Cimg1 {
+	height: 40px;
+	width: 40px;
+}
+
+#div6 {
+	width: 100%;
+	height: 35px;
+	background-color: darkgray;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.bd1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 35px;
+	flex: 0.1;
+}
+
+.bd2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 35px;
+	flex: 0.7;
+}
+
+.bd1 img {
+	width: 30px;
+	height: 30px;
+}
+
+.bd2 input {
+	border: 0px;
+	border-radius: 2px;
+	width: 95%;
+	height: 24px;
+}
+
+.bd3 img {
+	width: 30px;
+	height: 30px;
+}
+
+#q2 {
+	display: block;
+	color: white;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.ct1 {
+	margin-top: 8px;
+	margin-bottom: 8px;
+	display: inline-flex;
+	width: 94%;
+	height: 30px;
+	background-color: white;
+}
+
+.ct2 {
+	display: inline-flex;
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	border-bottom: 1px solid darkgrey;
+}
+
+.ct3 {
+	width: 94%;
+	height: 15px;
+}
+
+.Clin1 {
+	flex: 0.1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Clin2 {
+	flex: 0.8;
+	color: #616161;
+	font-size: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Clin4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 0.2;
+}
+
+.Clin5 {
+	flex: 0.8;
+	line-height: 50px;
+	text-align: start;
+	font-size: 18px;
+}
+
+.Clin1 img {
+	width: 20px;
+	height: 20px;
+}
+
+.Clin2 img {
+	width: 15px;
+	height: 15px;
+}
+
+.Clin4 img {
+	width: 40px;
+	height: 40px;
+}
+
+#cen2 a {
+	display: inline-flex;
+	justify-content: flex-start
+}
+
+.AF1 {
+	font-size: 18px;
+	color: gray;
+}
+
+.kong2 {
+	width: 100%;
+	height: 10px;
+	background-color: gainsboro;
+}
+
+.Weian {
+	width: 100%;
+	height: 90px;
+	background-color: white;
+	display: flex;
+}
+
+.W1 {
+	flex: 0.3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.W2 {
+	flex: 0.5;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.W3 {
+	flex: 0.2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.W4 {
+	flex: 0.2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.W5 {
+	flex: 0.8;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 15px;
+}
+
+.W6 {
+	flex: 0.8;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 15px;
+	border-bottom: 1px solid gainsboro;
+}
+
+.W1 img {
+	width: 80px;
+	height: 80px;
+}
+
+.W3 img {
+	width: 20px;
+	height: 20px;
+}
+
+.W4 img {
+	width: 30px;
+	height: 30px;
+}
+
+#spn1 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#spn2 {
+	color: gray;
+	font-size: 10px;
+}
+
+.Weian2 {
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	display: flex;
+}
+
+.background {
+	width: 100%;
+	height: 200px;
+}
+
+.background img {
+	width: 100%;
+	height: 100%;
+}
+
+.ab {
+	display: flex;
+	width: 130px;
+	height: 80px;
+	position: absolute;
+	right: 3%;
+	top: 220px;
+	line-height: 80px;
+}
+
+.ab img {
+	border-radius: 10px;
+	width: 80px;
+	height: 80px;
+}
+
+#ma {
+	color: white;
+	font-size: 15px;
+}
+
+.Cd6 {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 120px;
+	background-color: white;
+}
+
+.d1 {
+	display: flex;
+	height: 90px;
+	background-color: ;
+}
+
+.d2 {
+	display: flex;
+	height: 30px;
+	border-bottom: 1px solid gainsboro;
+}
+
+.dd1 {
+	flex: 0.2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dd2 {
+	flex: 0.8;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.dd3 {
+	flex: 0.2;
+}
+
+.dd4 {
+	flex: 0.8;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.dd1 img {
+	width: 50px;
+	height: 50px;
+}
+
+.na1 {
+	font-size: 19px;
+	color: #0277BD;
+}
+
+.dd4 img {
+	width: 20px;
+	height: 20px;
+}
+
+.dd4 span {
+	font-size: 1px;
+	color: gray;
+}
